@@ -11,7 +11,8 @@ namespace APIPRUEBAS.Models
     [Table("CATEGORIA")]
     public partial class Categoria
     {
-     
+
+     //Clase Categoria Creada
         public Categoria()
         {
             Producto = new HashSet<Producto>();
